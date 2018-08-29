@@ -1,7 +1,7 @@
 import { createRouteBundle } from 'redux-bundler'
 import StatusPage from '../status/LoadableStatusPage'
 import FilesPage from '../files/LoadableFilesPage'
-import ExplorePage from '../explore/LoadableExplorePage'
+import ExplorePage from 'ipld-explorer/lib/components/ExplorePage'
 import PeersPage from '../peers/LoadablePeersPage'
 import SettingsPage from '../settings/LoadableSettingsPage'
 import WelcomePage from '../welcome/LoadableWelcomePage'
